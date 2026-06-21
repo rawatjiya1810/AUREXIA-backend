@@ -431,3 +431,8 @@ def performance_optimizer_agent(
         "performance": performance,
         "recommendation": recommendation
     }
+@app.post("/auth/creator/login")
+def creator_login():
+    return {
+        "message": "Login route working"
+    }
